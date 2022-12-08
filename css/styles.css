@@ -1,0 +1,175 @@
+:root {
+  --accent-color: #4d5ae5;
+  --main-color: #2e2f42;
+  --second-color: #434455;
+  --white-color: #ffffff;
+  --cloud-color: #f4f4fd;
+  --cornflover-color: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
+/* Шапка */
+.no-decor {
+  text-decoration: none;
+}
+.no-style-type {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.logo-accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.link-nav {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.link-nav:hover {
+  color: var(--second-color);
+}
+.link-nav:focus {
+  color: var(--second-color);
+}
+.link-nav:active {
+  color: var(--accent-color);
+}
+.social-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+.social-list:hover {
+  color: var(--accent-color);
+}
+.social-list:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  background-color: var(--main-color);
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+}
+.hero-btn:active {
+  background: #404bbf;
+}
+/* Преимущества */
+.subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+/* Продукт */
+.title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Команда */
+.team {
+  background-color: var(--cloud-color);
+}
+/* Футер */
+
+.logo-accent-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud-color);
+  background-color: var(--main-color);
+}
+.text-white {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflover-color);
+  background-color: var(--main-color);
+}
+
+/* Страница портфолио */
+/* Фильтры */
+.filters-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--cornflover-color);
+  border: none;
+  cursor: pointer;
+}
+.filters-btn:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.filters-btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.text-cloud {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud-color);
+  background-color: var(--accent-color);
+}
