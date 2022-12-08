@@ -10,12 +10,35 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
 }
-/* Шапка */
+/* Утилиты */
+ul {
+  padding: 0;
+  margin:0;
+}
+h1,h2,h3,p {
+  margin:0;
+}
+.image {
+  display: block;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 .no-decor {
   text-decoration: none;
 }
 .no-style-type {
   list-style-type: none;
+}
+/* Шапка */
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .logo {
@@ -30,6 +53,8 @@ body {
   color: var(--accent-color);
 }
 .logo-accent {
+  display: inline-block;
+  margin-right: 77px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -41,6 +66,7 @@ body {
   color: var(--main-color);
 }
 .link-nav {
+  display: inline-block;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -57,10 +83,17 @@ body {
   color: var(--accent-color);
 }
 .social-list {
-  font-size: 16px;
+  display: inline-block;
+
+    font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+}
+.social-list:first-child {
+  margin-right: 40px;
+}
+
 }
 .social-list:hover {
   color: var(--accent-color);
@@ -69,6 +102,9 @@ body {
   color: var(--accent-color);
 }
 /* Герой */
+.hero {
+  background-color: var(--main-color);
+}
 .hero-title {
   font-weight: 600;
   font-size: 56px;
@@ -76,7 +112,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
-  background-color: var(--main-color);
+  
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -121,7 +157,9 @@ body {
   background-color: var(--cloud-color);
 }
 /* Футер */
-
+.footer {
+  background-color: var(--main-color)
+}
 .logo-accent-white {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -132,14 +170,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud-color);
-  background-color: var(--main-color);
 }
 .text-white {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflover-color);
-  background-color: var(--main-color);
 }
 
 /* Страница портфолио */
