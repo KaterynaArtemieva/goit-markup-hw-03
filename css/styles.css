@@ -167,7 +167,7 @@ p {
   background: #404bbf;
 }
 /* Преимущества */
-.dignity > .container {
+.dignity {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -195,7 +195,7 @@ p {
   color: var(--second-color);
 }
 /* Продукт */
-.product > .container {
+.product {
   padding-bottom: 120px;
 }
 .title {
@@ -270,7 +270,7 @@ p {
 }
 
 /* Страница портфолио */
-.portfolio > .container {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -337,11 +337,12 @@ p {
   border-right: 0.5px solid var(--cloud-color);
   border-bottom: 0.5px solid var(--cloud-color);
   border-left: 0.5px solid var(--cloud-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .examples-item {
   margin-right: 24px;
   margin-bottom: 48px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 .examples-item:nth-child(3n) {
   margin-right: 0;
