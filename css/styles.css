@@ -109,6 +109,9 @@ p {
 .link-nav:active {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
 .social-link {
   padding-top: 10px;
   padding-right: 10px;
